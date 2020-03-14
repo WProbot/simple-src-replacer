@@ -60,7 +60,7 @@ class Main{
 	/**
 	 * @param $buffer
 	 *
-	 * @return string|string[]|null
+	 * @return string
 	 */
 	public function obCallback($buffer) {
 		// if it is not HTML then just return it
@@ -84,7 +84,7 @@ class Main{
 	/**
 	 * @param $input
 	 *
-	 * @return string|string[]|null
+	 * @return string
 	 */
 	private function replaceImgSrcAttr($input) {
 		// define the regex to search for <img src="" /> and make it greedy
@@ -101,7 +101,7 @@ class Main{
 	/**
 	 * @param $match
 	 *
-	 * @return mixed|string|string[]
+	 * @return string
 	 */
 	public function replaceImgSrcAttrCallback($match) {
 		// if no URL found or it is relative or it doesn't belong to the site, then leave it
