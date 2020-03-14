@@ -1,7 +1,7 @@
 # Simple Img Src Replacer for Wordpress
 
 A very basic plugin to search and replace img tag src attribute
-with absolute URL to current Wordpress install, with a new URL, CDN compliant in the form: "http://anothersite.com/remote/?url=http://example.com/image.jpg"
+with absolute URL to current Wordpress install, with a new URL, CDN compliant in the form: "http://anothersite.com/remote/?url=http://example.com/image.jpg" as described [here](https://docs.google.com/document/d/1U7UhAlwVDFgHFbgBl_Z-pxpaxoPQJxy27_ko4pMPLvk/edit).
 
 ## Features
 
