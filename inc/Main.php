@@ -12,7 +12,7 @@ namespace Robanostra\SimpleImgSrcReplacer;
 class Main{
 	/**
 	 * The target src URL
-	 * @var string|string
+	 * @var string
 	 */
 	private $srcTo;
 	/**
@@ -58,7 +58,7 @@ class Main{
 	}
 
 	/**
-	 * @param $buffer
+	 * @param string $buffer
 	 *
 	 * @return string
 	 */
@@ -72,7 +72,7 @@ class Main{
 	}
 
 	/**
-	 * @param $string
+	 * @param string $string
 	 *
 	 * @return bool
 	 */
@@ -82,7 +82,7 @@ class Main{
 	}
 
 	/**
-	 * @param $input
+	 * @param string $input
 	 *
 	 * @return string
 	 */
@@ -99,7 +99,7 @@ class Main{
 	}
 
 	/**
-	 * @param $match
+	 * @param array $match
 	 *
 	 * @return string
 	 */
