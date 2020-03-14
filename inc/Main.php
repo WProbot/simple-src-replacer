@@ -6,11 +6,10 @@ namespace Robanostra\SimpleImgSrcReplacer;
  * Class Main
  *
  * @package Robanostra\SimpleImgSrcReplacer
- * 
+ *
  * Set up hooks callbacks to capture the output buffer and replace images src attributes URLs when site_url() is there
  */
 class Main{
-
 	/**
 	 * The target src URL
 	 * @var string|string
