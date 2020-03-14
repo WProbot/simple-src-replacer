@@ -2,9 +2,31 @@
 
 namespace Robanostra\SimpleImgSrcReplacer;
 
+/**
+ * Class Main
+ *
+ * @package Robanostra\SimpleImgSrcReplacer
+ * 
+ * Set up hooks callbacks to capture the output buffer and replace images src attributes URLs when site_url() is there
+ */
 class Main{
-	private $srcTo;
 
+	/**
+	 * The target src URL
+	 * @var string|string
+	 */
+	private $srcTo;
+	/**
+	 * The current site URL
+	 * @var string
+	 */
+	private $currentSiteURL;
+
+	/**
+	 * Main constructor.
+	 *
+	 * @param string $srcTo
+	 */
 	public function __construct(string $srcTo) {
 		$this->srcTo = $srcTo;
 		$this->currentSiteURL = get_site_url();
