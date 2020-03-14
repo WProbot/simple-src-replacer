@@ -21,7 +21,7 @@ to the desired target URL.
 
 ### Prerequisites
 
-1. Composer, Wordpress, php7. To make it compliant with php 5.6, just remove the scalar type declaration - string from "inc/Main.php" class constructor:
+1. Composer, Wordpress, php7. To make it compliant with php 5.6, just remove the scalar type declaration _string_ from "inc/Main.php" class constructor:
 
         public function __construct(string $srcTo)
         
