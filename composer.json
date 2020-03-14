@@ -1,0 +1,34 @@
+{
+  "name": "simple-src-replacer",
+  "description": "Simple Wordpress plugin to replace img tag src attribute for CDN usage",
+  "keywords": ["wordpress", "utility", "CDN"],
+  "license": "GPL-2.0",
+  "homepage": "https://github.com/rogopag/simple-src-replacer",
+  "type": "wordpress-plugin",
+  "version": "1.0",
+  "authors": [
+    {
+      "email": "holdwine@gmail.com",
+      "name": "Riccardo Strobbia"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor/"
+  },
+  "require": {
+    "php": ">=7.0",
+    "composer/installers": "~1.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev",
+      "dev-develop": "1.0.x-dev"
+    }
+  },
+  "autoload": {
+    "classmap": [
+      "inc/"
+    ]
+  },
+  "minimum-stability": "dev"
+}
