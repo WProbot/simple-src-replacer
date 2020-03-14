@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Simple IMG SRC Replacer
- * Description: Replaces img tag src attribute url when contains $srcFrom with $srcTo?url=$srcFrom
+ * Description: Replaces img tag src attribute url when contains site_url() with $srcTo?url=site_url()
  * Author: Riccardo Strobbia
  * License: GPL-3.0
  */
