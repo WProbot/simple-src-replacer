@@ -36,4 +36,4 @@ should be changed to:
 1. `cd simple-src-replacer`
 1. For simplicity being this a demonstration I've commited - I would never do that in real life - vendor/ dir with autoloaders so that the plugin can be directly used.
 
-Note: you may want to use a plugin such as [WP Rocket](https://wp-rocket.me) with apache mod_deflate or [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/) to enable GZIP compression and enhance performance.
+**Note:** you may want to use a plugin such as [WP Rocket](https://wp-rocket.me) with apache mod_deflate or [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/) to enable GZIP compression and enhance performance.
