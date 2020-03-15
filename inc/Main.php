@@ -88,7 +88,7 @@ class Main{
 	 */
 	private function replaceImgSrcAttr($input) {
 		// define the regex to search for <img src="" /> and make it greedy
-		$regex = '/<img\s+src="([^"]+)"[^>]+>/siU';
+		$regex = '/<img.*src="([^"]+)"[^>]+>/siU';
 		// check if there are any
 		if(preg_match_all($regex, $input, $matches, PREG_SET_ORDER)) {
 			// if there are apply the replace callback
